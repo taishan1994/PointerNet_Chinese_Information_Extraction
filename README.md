@@ -320,7 +320,7 @@ weighted avg       0.92      0.92      0.92      1771
 富国银行收缩农业与能源贷款团队 裁减200多名银行家
 {'组织关系-裁员': [('裁减', 16)]}
 
-# 事件论文抽取
+# 事件论元抽取
 【test】 precision=0.7829 recall=0.7406 f1_score=0.7612
           precision    recall  f1-score   support
 
