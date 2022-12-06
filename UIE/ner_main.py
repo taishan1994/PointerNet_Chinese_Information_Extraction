@@ -225,7 +225,7 @@ if __name__ == '__main__':
     model = UIEModel(args)
     ner_pipeline = NerPipeline(model, args)
 
-    # ner_pipeline.train()
+    ner_pipeline.train()
     ner_pipeline.test()
 
     raw_text = "顾建国先生：研究生学历，正高级工程师，现任本公司董事长、马钢(集团)控股有限公司总经理。"
