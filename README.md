@@ -394,6 +394,17 @@ A：同样的可以转换任务为：ner、sbj、obj、rel。比如实体识别�
 
 **这里不提供训练好的模型了，自行训练即可。**
 
+```
+@misc{PointerNet_Chinese_Information_Extraction,
+  author = {Oubo Gong},
+  title = {Chinese Information Extraction Using Pointer Network},
+  year = {2022},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  url="https://github.com/taishan1994/PointerNet_Chinese_Information_Extraction",
+}
+```
+
 # 参考
 
 > [一种基于Prompt的通用信息抽取（UIE）框架_阿里技术的博客-CSDN博客](https://blog.csdn.net/AlibabaTech1024/article/details/127747678) （思想和大部分图片都来自这）
