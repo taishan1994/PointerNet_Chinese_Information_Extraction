@@ -20,7 +20,7 @@
 # 依赖
 
 ```python
-pytorch》=1.6.0
+pytorch>=1.6.0
 transformers==4.5.0
 ```
 
