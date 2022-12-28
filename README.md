@@ -20,8 +20,8 @@
 # 依赖
 
 ```python
-pytorch
-transformers
+pytorch》=1.6.0
+transformers==4.5.0
 ```
 
 # 命名实体识别任务
