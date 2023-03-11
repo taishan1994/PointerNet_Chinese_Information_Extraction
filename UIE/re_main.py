@@ -543,7 +543,7 @@ class RePipeline:
               encode_dict = self.args.tokenizer.encode_plus(text=tokens_b,
                                       max_length=self.args.max_seq_len,
                                       padding="max_length",
-                                      truncating="only_first",
+                                      truncation="only_first",
                                       return_token_type_ids=True,
                                       return_attention_mask=True)
               # tokens = ['[CLS]'] + tokens + ['[SEP]']
