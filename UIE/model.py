@@ -97,9 +97,9 @@ class UIEModel(nn.Module):
                        re_obj_start_labels=None,
                        re_obj_end_labels=None, ):
         res = {
-            "sbj_start_logits": None,
-            "sbj_end_logits": None,
-            "sbj_loss": None,
+            "obj_start_logits": None,
+            "obj_end_logits": None,
+            "obj_loss": None,
         }
         obj_output = self.bert_model(
             re_obj_input_ids,
